@@ -1,9 +1,11 @@
 function sendmsg(){
   var  msg=document.getElementById('msg')
       msg =msg.value
+  var date=document.getElementById('date')
   var  sendMsg=document.getElementsByClassName('sent')
 
-    createMsg(msg,"8 PP")
+    createMsg(msg,"time")
+    
     
     
 }
